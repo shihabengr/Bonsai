@@ -1,0 +1,123 @@
+@media (max-width:991px){
+    .sec6-main{
+        grid-template-columns:repeat(4,1fr);
+    }
+    .sec5-sub2-main{
+        grid-template-columns:repeat(3,1fr);
+    }
+    .sec5-sub2 h3{
+        margin: 15px;
+    }
+    .sec5-sub2{
+        margin-bottom:40px;
+    }
+    .sec5-sub h2{
+        font-size:2em;
+    }
+    .sec5-sub p{
+        font-size:1em;
+    }
+    .common-pad{
+        padding-bottom:30px;
+    }
+    #service .service-sub  h2{
+        font-size: 1.5em;
+    }
+    .service-sub  h3{
+        font-size: 2em;
+    }
+    #service h2 {
+        font-size: 2.5em;
+      }
+      #home h3 {
+        font-size: 1rem;
+        margin-top: 0;
+      }
+      #home h2 {
+        font-size: 2.5rem;
+      }
+      .sec7-main{
+        grid-template-columns:repeat(1,1fr);
+    }
+    #sec7 h2{
+      font-size: 2rem;
+    }
+   .sec8-main{
+    grid-template-columns:1fr;
+    }
+  .part1-main{
+  grid-template-columns:1fr;
+   }
+   .foot-main{
+    display:grid;
+    grid-template-columns:1fr;
+   }
+.foot-sub3 {
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+}
+@media (max-width:767px){
+   .bm{
+    display: none;
+   }
+  .bttt{
+    visibility: visible;
+   }
+}
+@media (max-width:575px){
+    .sec6-main{
+        grid-template-columns:repeat(3,1fr);
+    }
+    .sec5-sub2-main{
+        grid-template-columns:repeat(2,1fr);
+        width: 80%;
+        margin: auto;
+    }
+    .text{
+        font-size:1.5rem;
+    }
+    .sec5-sub h2{
+        font-size:1.5em;
+    }
+    .sec4-sub2 {
+        grid-template-columns: repeat(2,1fr);
+      }
+      .sec4-sub3:hover{
+        transform: scale(1);
+    }
+    .sec4-sub3 {
+        padding-bottom: 24px;
+      }
+      html,body{
+        font-size:14px;  
+     }
+     .sec4-sub3 h4,.sec5-sub2 h3 {
+        font-size: 16px;
+      }
+      #service h2::after,#service .service-sub h2::after,.common-head::after{
+        display: none;
+      }
+      #home h2 {
+        font-size: 2rem;
+      }
+      .btmm1 a {
+        padding: 10px 18px 10px 18px;
+      }
+      .btmm2 a {
+        padding: 8px 8px;
+      }  
+      #home{
+        height:80vh;
+    }
+    .part1-sub [type="mail"]{
+      padding: 10px 70px 10px 13px;
+  }
+}
+@media (max-width:316px){
+    .btm1{
+        padding-bottom: 12px;
+        display: inline-block;
+      }
+}
